@@ -1,0 +1,23 @@
+[
+  {
+    "id": "gdpr_32_security",
+    "query": "What does GDPR say about security of processing?",
+    "expected_sections": ["ARTICLE-32"],
+    "must_contain": ["security"],
+    "should_reject": false
+  },
+  {
+    "id": "gdpr_encryption",
+    "query": "Does GDPR require encryption?",
+    "expected_sections": ["ARTICLE-32"],
+    "must_contain": ["encryption"],
+    "should_reject": false
+  },
+  {
+    "id": "hallucination_test",
+    "query": "Does GDPR guarantee free internet access?",
+    "expected_sections": [],
+    "must_contain": [],
+    "should_reject": true
+  }
+]
